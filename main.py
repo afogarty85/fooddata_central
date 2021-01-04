@@ -109,7 +109,6 @@ def nutrition_retrieval(fdcIDs, api_key=api_key):
     # set API details
     USDA_URL = 'https://api.nal.usda.gov/fdc/v1/'
     headers = {'Content-Type': 'application/json'}
-    # 'https://api.nal.usda.gov/fdc/v1/478834?api_key=dvCyz1caFZ12A2Q04pm7ZQ9b9Z8h4pcK7dl4GI8K'
     # Loop over each FDCID; commit a API request for each
     for i in fdcIDs:
         fdcId = str(i)
